@@ -15,21 +15,50 @@ header {
     color:black;
     font-size: small;
     text-transform: uppercase;
-    height: 50px;
-
+    height: 100px;
+    border-bottom: 2px solid aqua;  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
+header h1{
+    height: 100px;
+    justify-items: left;;
+    margin-left: 50px;
+  }
+header a {height: 90px;
+    text-align: right;
+}
+
 header img { 
-    height: 50px;
-
+    margin-right: 50px;
+    height: 60%;
 }
+
+nav{
+    padding: 1rem 0 1rem 0;
+}
+ nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    justify-items: center;
+    list-style: none;
+ }
+ nav ul li {
+    background-color: white;
+    color: #000;
+    border: 1px solid white;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+
 
 nav ul {
          list-style-type: none;
 }
 nav ul {
-      background-color: bisque;
+      background-color: white;
       color:black;
-      border: 1px solid bisque;
+      border: 1px solid white;
       
 
 }
@@ -48,7 +77,7 @@ nav ul li a:hover {
 
 }
 
-nav ul li:nth-child(2) {
+nav ul li {
          background-color: orange;
          color:black;
          border:1px solid orange;
@@ -56,12 +85,12 @@ nav ul li:nth-child(2) {
          text-decoration: none;
 
 }
-nav ul li:nth-child(2) a {
-        background-color: orange;
+nav ul li a {
+        background-color: blue;
         color: black;
         text-decoration: none;
 }
-nav ul li:nth-child(2) a{
+nav ul li a {
         background-color: orange;
         color: black;
         text-decoration: none;
@@ -70,22 +99,47 @@ nav ul li:nth-child(2) a{
 
     background-color: white;
 }
+
+#primary{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    padding: 0 1rem 0 1rem;
+}
+
+#main_aticle{
+    padding: 0 1rem 0 1rem;
+}
+
+figure {
+    padding: 0 1rem 0 1rem;
+}
+
+figure img{
+    max-width: 100%;
+    border-radius: 50px;
+}
+
 figcaption {
-    text-align:left;
-    font-size: 0.7rem;
+    text-align:center;
+    font-size: 0.6rem;
 }
 figcaption a {
-    background-color:white;
+    background-color: white;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
+    
 }
-#secondery{
-        background-color: white;
+#secondary {
+        background-color: aqua;
         color:black;
+        padding: 1rem 5rem 1rem 2rem;
 }
 
 footer {
     background-color: aqua;
     color:black;
+    padding: 0.8rem 0 0 2rem;
+    border-top: 2px solid aqua;
+    border-bottom: 2px solid aqua;
 }
