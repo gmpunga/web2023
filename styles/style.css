@@ -101,6 +101,7 @@ nav ul li {
 }
 
 #primary{
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     padding: 0 1rem 0 1rem;
@@ -131,12 +132,15 @@ figcaption a {
     
 }
 #secondary {
-        background-color: aqua;
+    background-color: antiquewhite;
         color:black;
         padding: 1rem 5rem 1rem 2rem;
-}
+}   
+
+
 
 footer {
+    display: flex;
     background-color: aqua;
     color:black;
     padding: 0.8rem 0 0 2rem;
