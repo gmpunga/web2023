@@ -175,12 +175,11 @@ figcaption a {
 	}
 
 
-
-footer {
-    display: flex;
-    background-color: aqua;
-    color:black;
-    padding: 0.8rem 0 0 2rem;
-    border-top: 2px solid aqua;
-    border-bottom: 2px solid aqua;
-}
+    footer {
+        display: flex;
+        background-color: aqua;
+        color:black;
+        padding: 0.8rem 0 0 2rem;
+        border-top: 2px solid aqua;
+        border-bottom: 2px solid aqua;
+    }
