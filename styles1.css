@@ -1,0 +1,194 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.basicform {
+  display: flex;
+  align-items: center;
+}
+
+.basicform input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.basicform input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* nav styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* wrapper styles */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* primary section styles */
+#primary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#main_article {
+  flex-basis: 65%;
+}
+
+#main_fig {
+  flex-basis: 30%;
+  margin-top: 30px;
+}
+
+#main_fig img {
+  width: 100%;
+  height: auto;
+}
+
+#main_fig figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* video wrapper styles */
+.video_wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  
+}
+
+.video_wrapper iframe {
+  width: 300px;
+  height: 200px;
+  border: 1px solid#ff6666;
+}
+footer {
+    background-color: #f7f7f7;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .basicbutton {
+    display: inline-block;
+  }
+  
+  .basicbutton button {
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .basicbutton button:hover {
+    background-color: #ff4d4d;
+  }
+  
+  .basicform {
+    margin-top: 20px;
+  }
+  
+  .basicform label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .basicform input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .basicform input[type="submit"] {
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .basicform input[type="submit"]:hover {
+    background-color: #ff4d4d;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+ 
