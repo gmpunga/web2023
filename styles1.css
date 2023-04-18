@@ -24,7 +24,7 @@ ul {
 
 /* header styles */
 header {
-  background-color #CCC;
+  background-color: aqua;
   box-shadow: 0 2px 4px #333(0, 0, 0, 0.1);
   padding: 20px;
 }
@@ -47,37 +47,72 @@ header {
 
 .basicform input[type="submit"] {
   background-color: #333;
-  color: #fff;
+  color:  #f0f0f0;
   padding: 5px 10px;
   border: none;
   cursor: pointer;
 }
 
 /* nav styles */
-nav {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+nav{
+  padding: 1rem 0 1rem 0;
 }
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  justify-items: center;
+  list-style: none;
+}
+nav ul li {
+background-color: #f0f0f0;
+  color: #000;
+  border: 1px solid  #f0f0f0;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+
 
 nav ul {
-  display: flex;
+       list-style-type: none;
+}
+nav ul {
+    background-color: #f0f0f0;
+    color:black;
+    border: 1px solid  #f0f0f0;
+
 }
 
-nav li {
-  margin-right: 20px;
+nav ul li a {
+     background-color: bisque;
+     color: black;
+     text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;      
+}
+nav ul li a:hover {
+        background-color: bisque;
+        color:white;
+        font-weight: bold;
+
 }
 
-nav a {
-  color: #fff;
-  font-weight: bold;
-  padding: 10px;
-  transition: all 0.2s;
-}
+nav ul li {
+       background-color: orange;
+       color:black;
+       border:1px solid orange;
+       font-weight: bold;
+       text-decoration: none;
 
-nav a:hover {
-  background-color: #fff;
-  color: #333;
+      }
+      nav ul li a  {
+              background-color: orange;
+              color: black;
+              text-decoration: none;
+      }
+nav ul li {
+      background-color: orange;
+      color: black;
+      text-decoration: none;
 }
 
 /* wrapper styles */
@@ -128,7 +163,7 @@ nav a:hover {
   border: 1px solid#ff6666;
 }
 footer {
-    background-color: #f7f7f7;
+    background-color: aqua;
     padding: 30px;
     text-align: center;
   }
@@ -191,4 +226,3 @@ footer {
     font-size: 14px;
     color: #666;
   }
- 
