@@ -161,6 +161,7 @@ nav ul li {
   width: 300px;
   height: 200px;
   border: 1px solid#ff6666;
+  padding: 10px;
 }
 footer {
     background-color: aqua;
